@@ -23,7 +23,7 @@ class Register extends React.Component {
         // console.log(this.state);
         // this.props.onRouteChange('home');
         event.preventDefault();
-        fetch('http://localhost:3000/register', {
+        fetch('https://fathomless-ocean-40681.herokuapp.com/register', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
